@@ -108,6 +108,7 @@
   .aboutMe>p{
       margin: 5px;
       padding: 0 0 5px 0px;
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   }
   .aboutMe{
       max-width: 920px;
