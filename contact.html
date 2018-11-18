@@ -2,33 +2,39 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <Title>Contact Alexander Gabriel Lovett</Title>
+        <Title>Contact Alex</Title>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
+
         <header>
-            <div class="headerLeft">Alexander G Lovett</div>
-            <ul class="headerNavigation">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <nav class="topNav">
+                <h1 class="headerLeft">Alexander G Lovett</h1>
+                <ul class="nav">
+                    <li><a href="index.html">About</a></li>
+                    <li class="sep">|</li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="sep">|</li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <div>
-            <form>
-                Name:<br>
-                <input type="text" name="name"><br>
-                Email:<br>
-                <input type="text" name="email"><br>
-                Message:<br>
-                <input type="text" name="message"><br>
-                <input type="submit" value="Submit">
+        <div class="content">
+            <form class="inner-contact">
+                <h1 id="blueHeading">Contact</h1>
+                <div>
+                    <label>Name</label>
+                    <input type="text" name="name" size="140" placeholder="First Last"><br>
+                    <label>Email</label>
+                    <input type="text" name="email" size="140" placeholder="Email@address.com"><br>
+                    <label>Message</label>
+                    <textarea type="text" name="message" placeholder="Leave me a message"></textarea><br>
+                    <input type="submit" value="Submit">
+                </div>
             </form>
         </div>
 
-        <footer>
-            <div>Copyright Alexander G. Lovett 2018</div>
-        </footer>
+        <footer class="footer">Copyright ©</footer>
     </body>
 </html>
